@@ -1,0 +1,10 @@
+# Partial search on up and down keys
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+
+set colored-completion-prefix on
+set colored-stats on
+set completion-prefix-display-length 8
+set show-all-if-unmodified on
+set skip-completed-text on
+set visible-stats on
