@@ -3,6 +3,7 @@
 	name = Steven Roberts
 [alias]
 	unstage = reset HEAD --
+	uncommit = reset HEAD~
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	co = checkout
 	c = commit
