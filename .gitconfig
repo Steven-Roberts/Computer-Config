@@ -1,0 +1,11 @@
+[user]
+	email = sroberts994@gmail.com
+	name = Steven Roberts
+[alias]
+	unstage = reset HEAD --
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	co = checkout
+	c = commit
+	st = status
+[push]
+	default = current
