@@ -1,6 +1,8 @@
 [user]
 	email = sroberts994@gmail.com
 	name = Steven Roberts
+[credential]
+    username = Steven-Roberts
 [alias]
 	unstage = reset HEAD --
 	uncommit = reset HEAD~
@@ -10,3 +12,4 @@
 	st = status
 [push]
 	default = current
+
