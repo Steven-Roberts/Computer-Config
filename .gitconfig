@@ -3,6 +3,7 @@
 	name = Steven Roberts
 [credential]
 	username = Steven-Roberts
+	helper = "!f() { test \"$1\" = get && echo password=`bw get item GitHub < /dev/tty | jq -r '.fields[0].value'`; }; f"
 [alias]
 	unstage = reset HEAD --
 	uncommit = reset HEAD~
@@ -12,3 +13,4 @@
 	st = status
 [push]
 	default = current
+
